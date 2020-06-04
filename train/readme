@@ -1,1 +1,12 @@
+# model.py
+
+This file contains the neural network model.
+
+# train.py
+
+The model_fn method implements the neural network model in the model.py file. 
+
+The _get_train_data_loader method.
+  Input: training data and batch size.
+  Output: training data in batch size.
 
