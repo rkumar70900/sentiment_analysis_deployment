@@ -67,7 +67,6 @@ def train(model, train_loader, epochs, optimizer, loss_fn, device):
     device       - Where the model and data should be loaded (gpu or cpu).
     """
     
-    # TODO: Paste the train() method developed in the notebook here.
     for epoch in range(1, epochs + 1):
         model.train()
         total_loss = 0
@@ -76,8 +75,7 @@ def train(model, train_loader, epochs, optimizer, loss_fn, device):
             
             batch_X = batch_X.to(device)
             batch_y = batch_y.to(device)
-            
-            # TODO: Complete this train method to train the model provided.
+
             optimizer.zero_grad()
             output = model.forward(batch_X)
             loss = loss_fn(output,batch_y)
