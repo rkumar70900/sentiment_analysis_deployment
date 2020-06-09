@@ -6,7 +6,7 @@ This file contains the neural network model.
 
 The model_fn method implements the neural network model in the model.py file and returns the model. 
 
-The _get_train_data_loader method.
+The **_get_train_data_loader** method.
   Input: training data and batch size.
   
   returns
