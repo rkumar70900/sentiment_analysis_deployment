@@ -7,11 +7,11 @@ This file contains the neural network model.
 The **model_fn** method implements the neural network model in the model.py file and returns the model. 
 
 The **_get_train_data_loader** method.
-  Input 
-    training data and batch size.
+  * Input 
+    * training data and batch size.
   
-  returns
-    The training data in batches according to the batch size mentioned in the input.
+  * returns
+    * The training data in batches according to the batch size mentioned in the input.
     
 The **train** method.
   * Input
@@ -23,5 +23,5 @@ The **train** method.
     * device - where the model should run.
 
 The **main** method.
-  This method contains the SageMaker Parameters, Model Parameters, Training Parameters.
-  Along with these, It selects the device to run, Loads the training data, Builds the model, trains the model and saves the parameters
+  * This method contains the SageMaker Parameters, Model Parameters, Training Parameters.
+  * Along with these, It selects the device to run, Loads the training data, Builds the model, trains the model and saves the parameters
